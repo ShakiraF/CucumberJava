@@ -1,0 +1,65 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-08-04T10:35:27.644Z",
+        "line": 4,
+        "name": "Validate search",
+        "description": "",
+        "id": "google-search;validate-search",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 30160039500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I launch Browser",
+            "match": {
+              "location": "StepDefintions.GoogleSteps.luanch_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9642391300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter Automation step by step",
+            "match": {
+              "location": "StepDefintions.GoogleSteps.Enter_text()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6646152600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I Verify Header",
+            "match": {
+              "location": "StepDefintions.GoogleSteps.veify_header()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@GoogleSearch"
+          }
+        ]
+      }
+    ],
+    "name": "Google Search",
+    "description": "",
+    "id": "google-search",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/Google.feature",
+    "tags": []
+  }
+]
